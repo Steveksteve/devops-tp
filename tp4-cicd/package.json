@@ -1,0 +1,9 @@
+{
+  "name": "tp1-app",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  }
+}
