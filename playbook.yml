@@ -1,0 +1,4 @@
+- hosts: node
+  tasks:
+    - name: install python + curl inside container
+      command: docker exec devops-tp-node1-1 bash -c "apt update && apt install -y python3 curl"
